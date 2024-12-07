@@ -1,0 +1,80 @@
+[
+  {
+    "id": "decaab79-d46a-446c-851b-318dd7f45bc4",
+    "title": "Jazz Senior",
+    "description": "Clase avanzada de Jazz para estudiantes experimentados.",
+    "code": "JAZZ05",
+    "price": 8000,
+    "status": true,
+    "stock": 5,
+    "category": "Danza",
+    "thumbnails": [
+      "/assets/img/imagenes/5.png"
+    ]
+  },
+  {
+    "id": "9f13952e-1a11-4e0c-8611-7d6862e963b6",
+    "title": "Tap Básico",
+    "description": "Clase básica de Tap para principiantes.",
+    "code": "TAP06",
+    "price": 8000,
+    "status": true,
+    "stock": 20,
+    "category": "Danza",
+    "thumbnails": [
+      "/assets/img/imagenes/6.png"
+    ]
+  },
+  {
+    "id": "c171fade-9621-4364-b879-ce6be993bce6",
+    "title": "Salsa",
+    "description": "Descripción detallada del nuevo producto.",
+    "code": "NEW01",
+    "price": 12000,
+    "status": true,
+    "stock": 10,
+    "category": "Danza",
+    "thumbnails": [
+      "/assets/img/imagenes/7.png"
+    ]
+  },
+  {
+    "id": "5d0155a8-e667-42fb-b548-eb8284c5e7f0",
+    "title": "Lyrical Jazz Principiante",
+    "description": "Descripción detallada del nuevo producto.",
+    "code": "NEW02",
+    "price": 12000,
+    "status": true,
+    "stock": 10,
+    "category": "Danza",
+    "thumbnails": [
+      "/assets/img/imagenes/1.png"
+    ]
+  },
+  {
+    "id": "d768afbe-b452-490e-b9e7-25fd7f8c1c02",
+    "title": "Full Baile",
+    "description": "Descripción detallada del nuevo producto.",
+    "code": "NEW02",
+    "price": 12000,
+    "status": true,
+    "stock": 10,
+    "category": "Danza",
+    "thumbnails": [
+      "/assets/img/imagenes/3.png"
+    ]
+  },
+  {
+    "id": "f3cd3aad-663e-4f4d-bece-b0da8c271111",
+    "title": "Jazz Intermedio",
+    "description": "Descripción detallada del nuevo producto.",
+    "code": "NEW02",
+    "price": 12000,
+    "status": true,
+    "stock": 10,
+    "category": "Danza",
+    "thumbnails": [
+      "/assets/img/imagenes/4.png"
+    ]
+  }
+]

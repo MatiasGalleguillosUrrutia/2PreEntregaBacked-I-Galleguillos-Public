@@ -1,0 +1,48 @@
+<h1>Productos en Tiempo Real</h1>
+<ul id="productList">
+    {{#each products}}
+    <li>
+        <h3>{{title}}</h3>
+        <p>{{description}}</p>
+        <p><strong>Precio:</strong> ${{price}}</p>
+        <p><strong>Stock:</strong> {{stock}}</p>
+        <p><strong>Categoría:</strong> {{category}}</p>
+        {{#if thumbnails}}
+        <img src="{{thumbnails.[0]}}" alt="{{title}}" style="width:100px;">
+        {{/if}}
+    </li>
+    {{/each}}
+</ul>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    const socket = io();
+
+    // Escuchar cuando se agrega un producto
+    socket.on('productAdded', (product) => {
+        console.log('Evento productAdded recibido:', product);
+        const productList = document.getElementById('productList');
+        const newProduct = document.createElement('li');
+        newProduct.innerHTML = `
+            <h3>${product.title}</h3>
+            <p>${product.description}</p>
+            <p><strong>Precio:</strong> $${product.price}</p>
+            <p><strong>Stock:</strong> ${product.stock}</p>
+            <p><strong>Categoría:</strong> ${product.category}</p>
+            ${product.thumbnails?.length > 0 ? `<img src="${product.thumbnails[0]}" alt="${product.title}" style="width:100px;">` : ''}
+        `;
+        productList.appendChild(newProduct);
+    });
+
+    // Escuchar cuando se elimina un producto
+    socket.on('productDeleted', (product) => {
+        console.log('Evento productDeleted recibido:', product);
+        const productList = document.getElementById('productList');
+        const items = productList.querySelectorAll('li');
+        items.forEach((item) => {
+            if (item.textContent.includes(product.title)) {
+                productList.removeChild(item);
+            }
+        });
+    });
+</script>

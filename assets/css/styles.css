@@ -1,0 +1,108 @@
+/* General */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f0f5;
+  color: #444;
+}
+
+/* Encabezado */
+header {
+  background-color: #a16acb;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+  background-color: #44318d;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Lista de productos */
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+li {
+  background-color: white;
+  border: 2px solid #a16acb;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Encabezado de clase */
+li h2 {
+  font-size: 20px;
+  color: #44318d;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Imagen */
+li img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Descripción */
+li p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Precio y stock */
+li .price {
+  font-weight: bold;
+  color: #e76f51;
+  font-size: 18px;
+}
+
+li .stock {
+  color: #2a9d8f;
+  font-size: 14px;
+}
+
+/* Botones */
+button {
+  background-color: #a16acb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #44318d;
+}

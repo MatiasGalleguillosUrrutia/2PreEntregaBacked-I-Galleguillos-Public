@@ -1,0 +1,106 @@
+[
+  {
+    "id": "01",
+    "title": "Lyrical Jazz Principiante",
+    "description": "Clase introductoria de Lyrical Jazz para principiantes.",
+    "code": "LYRICAL01",
+    "price": 8000,
+    "status": true,
+    "stock": 10,
+    "category": "Danza",
+    "thumbnails": [
+      "./assets/img/imagenes/1.png"
+    ]
+  },
+  {
+    "id": "02",
+    "title": "Lyrical Jazz Básico",
+    "description": "Clase de Lyrical Jazz para nivel básico.",
+    "code": "LYRICAL02",
+    "price": 8000,
+    "status": true,
+    "stock": 12,
+    "category": "Danza",
+    "thumbnails": [
+      "./assets/img/imagenes/2.png"
+    ]
+  },
+  {
+    "id": "03",
+    "title": "Full Baile",
+    "description": "Clase intensiva de varios estilos de baile.",
+    "code": "FULL03",
+    "price": 8000,
+    "status": true,
+    "stock": 8,
+    "category": "Danza",
+    "thumbnails": [
+      "./assets/img/imagenes/3.png"
+    ]
+  },
+  {
+    "id": "04",
+    "title": "Jazz Intermedio",
+    "description": "Clase de Jazz para estudiantes intermedios.",
+    "code": "JAZZ04",
+    "price": 8000,
+    "status": true,
+    "stock": 15,
+    "category": "Danza",
+    "thumbnails": [
+      "./assets/img/imagenes/4.png"
+    ]
+  },
+  {
+    "id": "05",
+    "title": "Jazz Senior",
+    "description": "Clase avanzada de Jazz para estudiantes experimentados.",
+    "code": "JAZZ05",
+    "price": 8000,
+    "status": true,
+    "stock": 5,
+    "category": "Danza",
+    "thumbnails": [
+      "./assets/img/imagenes/5.png"
+    ]
+  },
+  {
+    "id": "06",
+    "title": "Tap Básico",
+    "description": "Clase básica de Tap para principiantes.",
+    "code": "TAP06",
+    "price": 8000,
+    "status": true,
+    "stock": 20,
+    "category": "Danza",
+    "thumbnails": [
+      "./assets/img/imagenes/6.png"
+    ]
+  },
+  {
+    "id": "07",
+    "title": "Salsa",
+    "description": "Clase de Salsa para todos los niveles.",
+    "code": "SALSA07",
+    "price": 8000,
+    "status": true,
+    "stock": 18,
+    "category": "Danza",
+    "thumbnails": [
+      "./assets/img/imagenes/7.png"
+    ]
+  },
+  {
+    "id": "08",
+    "title": "Yoga",
+    "description": "Clase introductoria de Yoga para principiantes.",
+    "code": "YOGA01",
+    "price": 9000,
+    "status": true,
+    "stock": 10,
+    "category": "Danza",
+    "thumbnails": [
+      "./assets/img/imagenes/8.png"
+    ]
+  }
+]

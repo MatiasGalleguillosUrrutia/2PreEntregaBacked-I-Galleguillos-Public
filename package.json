@@ -1,0 +1,18 @@
+{
+  "name": "1-preentrega",
+  "version": "1.0.0",
+  "description": "Primera entrega en programacion backend 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias Galleguillos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "moment": "^2.30.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.0.3"
+  }
+}
